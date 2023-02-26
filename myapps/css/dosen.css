@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f0f1f1;
+}
+#header{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+#header nav ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    float: right;
+}
+#header nav{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #34a7e0;
+    clear: both;
+    float: right;
+}
+#header nav ul{
+    padding: 0px 20px;
+}
+#header nav ul li{
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+#header nav ul li a{
+    color:#ffffff;
+    transition: .5s;
+}
+#header nav ul li a:hover{
+    color: #eb7f3a;;
+}
+#namaDanSlogan{
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+#namaDanSlogan h1, #namaDanSlogan h2{
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+}
+#namaDanSlogan h1{
+    font-size: 36px;
+}
+#namaDanSlogan h2{
+    font-size: 13px;
+}
+.baris1 a{
+    color: #eb7f3a;
+}
+.baris1 h2{
+    color: #46b64d;
+}
+#header form{
+    display:block;
+    width: 290px;
+    float:right;
+    margin: 20px 0px;
+    padding: 0;
+}
+#header form input{
+    display: block;
+    float:left;
+    width: 200px;
+    margin: 0px 8px 0px 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #eb7f3a;
+    border: 1px solid #fcc749;
+}
+#header form ::-webkit-input-placeholder{
+    color: #fff;
+}
+#header form #btn_Cari{
+    display: block;
+    float:left;
+    width: 70px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #eb7f3a;
+    border: 1px solid #fcc749;
+}
+.clear{
+    clear: both;
+}
+/* info terkini */
+#container{
+    display: block;
+    width: 960px;
+    margin: 0px auto;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+#container #infoTerkini{
+    width: 100%;
+}
+#container #infoTerkini figure img{
+    float: right;
+    width: 630px;
+    height: 300px;
+}
+#container #infoTerkini figure figcaption{
+    display: block;
+    float: left;
+    width: 290px;
+    height: 260px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #757472;
+    color: #fff;
+    line-height: 1.6em;
+}
+#container #infoTerkini figure h2{
+    font-size: 42px;
+    line-height: 35px;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.selengkapnya{
+    float: right;
+}
+.selengkapnya a{
+    color: #ff9900;
+}
+
+/* info terkini */
+/* halaman artikel */
+#halamanArtikel{
+    display:block;
+    /* float:left; */
+    margin-left: 260px;
+    margin-top: 20px;
+    width: 960px;
+    line-height: 1.6em;
+}
+#halamanArtikel section{
+    margin-bottom: 0;
+    display: block;
+    float: left;
+    text-align: left;
+}
+#halamanArtikel h2.title{
+    margin: 0 0 15px 0;
+    padding: 0 0 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.sectionKiri, .sectionTengah, .sectionKanan{
+    margin: 0 20px 0 0;
+}
+.sectionKiri, .sectionTengah{
+    width: 225px;
+}
+.sectionKanan{
+    width: 450px;
+}
+.sectionKiri h2{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 10 0;
+}
+#halamanArtikel section a{
+    color: #eb7f3a;
+}
+.sectionKiri address{
+    margin: 5px 0;
+}
+/* Link lainnya */
+#halamanArtikel section nav li{
+    margin: 0 0 8px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+#halamanArtikel section nav li a{
+    padding: 0 0 0 10px;
+    background: url("../images/arrow.png") left center no-repeat; /*Not working idk why*/
+}
+#halamanArtikel section nav li::before{
+    content: "\00BB";
+}
+/* tentang kami */
+.imgFloatLeft{
+    display:block;
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: left;
+}
+.imgHolder{
+    padding: 5px;
+    border: 1px solid #d6d6d6;
+}
+/* halaman artikel */
+/* footer */
+.baris3{
+    background-color: #34a7e0;
+    color: #fff;
+}
+.clear:after{
+    content:".";
+    display:block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0px;
+}
+#footer{
+    display: block;
+    width: 960px;
+    margin:0 auto;
+}
+.footerKiri{
+    float: right;
+}
+#footer{
+    padding: 20px;
+}
+.baris3 a{
+    color: #fff;
+}
+/* footer */
