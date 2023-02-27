@@ -198,7 +198,7 @@ address, article, aside, figcaption, figure, footer, header, nav, section{
 }
 #halamanArtikel section nav li a{
     padding: 0 0 0 10px;
-    background: url("../images/arrow.png") left center no-repeat; /*Not working idk why*/
+    background: url("../images/arrow.gif") left center no-repeat; /*Not working idk why*/
 }
 #halamanArtikel section nav li::before{
     content: "\00BB";
